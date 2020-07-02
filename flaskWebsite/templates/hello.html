@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>
+        Welcome {{name}}!
+    </h1>
+    <input type="button" onclick="sayHi()" value = "say Hi">
+</body>
+<script type="text/javascript" src="{{ url_for('static', filename='js/hello.js') }}"></script>
+</html>
